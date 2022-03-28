@@ -1,0 +1,253 @@
+.header-bar {
+    font-family: lato, sans-serif;
+    height: 90px;
+    background-color: black;
+    margin-top: -8px;
+    Display: flex;
+    Align-items: row;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.header-bar > .company-logo img {
+    height: 65px;
+    width: 300px;
+    margin-left: 15px;
+    padding-top: 10px;
+
+}
+
+.header-bar > .explore-our-site {
+    display: flex;
+    flex-direction: column;
+    justify-items:flex-start;
+    width: 200px;
+}
+
+.header-bar > .explore-our-site > .explore {
+    color: yellow;
+    margin-left: -225px;
+    margin-top: 15px;
+}
+
+.header-bar > .explore-our-site > .links-wrapper {
+    font-size: 1.5em;
+    font-weight: 900;
+    width: 300px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+    margin-left: -125px;
+    
+}
+
+.header-bar > .explore-our-site >.links-wrapper > .nav-link a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    text-decoration: none
+}
+
+.header-bar > .explore-our-site >.links-wrapper > .nav-link a:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.header-bar > .explore-our-site > .links-wrapper > .spark-dropdown {
+    margin-left: 10px;
+    color: gray;
+}
+
+.header-bar > .explore-our-site > .links-wrapper > .spark-dropdown > .btn {
+    font-family: lato, sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: black;
+    color: gray;
+    display: flex;
+    font-size: .8em;
+    margin-top: 3px;
+    border: none;
+    outline: none;
+}
+
+.header-bar > .header-bar-btns-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+.header-bar > .header-bar-btns-wrapper > .create-btn > .btn {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 25px 15px 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.header-bar > .header-bar-btns-wrapper > .search-btn > .btn {
+    background-color: black;
+    color: gray;
+    font-size: 2.2em;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.header-bar > .header-bar-btns-wrapper > .login-btn > .btn {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.header-bar > .header-bar-btns-wrapper > .signup-btn > .btn {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.main-body-content {
+    border-top: 1px solid #313537;
+    font-family: lato, sans-serif;
+    font-size: 2em;
+    height: 770px;
+    background-image: linear-gradient(to right, #313537, #0a0c0e);
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.main-body-content > .body-left-column {
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main-body-content > .body-left-column > .codepen-description {
+    color: white;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.codepen-description h1 {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.codepen-fluff h2 {
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.main-body-content > .body-left-column > .signup-learn-buttons {
+    display: flex;
+    align-items: row;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.main-body-content > .body-left-column > .signup-learn-buttons > .signup-btn > .btn {
+    background-color: #57ad5f;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.main-body-content > .body-left-column > .signup-learn-buttons > .signup-btn > .btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.0);
+}
+
+.main-body-content > .body-left-column > .signup-learn-buttons > .learn-btn > .btn {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    display:inline-block;
+    transition: 0.3s;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.main-body-content > .body-left-column > .signup-learn-buttons > .learn-btn > .btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.0);
+}
+
+.main-body-content > .body-right-column > .codepen-projects {
+    color: white;
+    margin-left: 35px;
+    align-items: flex-end;
+    margin-top: 90px;
+}
+
+.main-body-content > .body-right-column > .codepen-website-image img {
+    height: 100%;
+    width: 750px;
+    margin-left: 15px;
+    margin-top: -40px;
+}
+
+.footer {
+    font-family: lato, sans-serif;
+    height: 95px;
+    color: white;
+    background-color: #3b3b3b;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.footer > .footer-wrapper {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.footer > .footer-wrapper > .footer-item {
+    border-left: 1px solid gray;
+    padding-left: 50px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.footer > .footer-lower {
+    height: 500px;
+    background-color: #141414;
+}
